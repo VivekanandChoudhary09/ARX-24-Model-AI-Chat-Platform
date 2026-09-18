@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 222 47% 6%;
+  --foreground: 210 40% 96%;
+  --card: 222 40% 9%;
+  --card-foreground: 210 40% 96%;
+  --primary: 172 66% 50%;
+  --primary-foreground: 222 47% 6%;
+  --secondary: 217 33% 17%;
+  --secondary-foreground: 210 40% 96%;
+  --muted: 217 33% 14%;
+  --muted-foreground: 215 20% 65%;
+  --accent: 172 40% 18%;
+  --accent-foreground: 171 77% 84%;
+  --destructive: 0 72% 51%;
+  --destructive-foreground: 210 40% 98%;
+  --border: 217 25% 18%;
+  --input: 217 25% 18%;
+  --ring: 172 66% 50%;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  @apply bg-background text-foreground antialiased;
+}
+
+.hljs {
+  background: transparent !important;
+}
